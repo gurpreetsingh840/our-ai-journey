@@ -134,6 +134,48 @@ Save it. Preview with `Ctrl+Shift+V`.
 
 ---
 
+### Tip and trick for deeper understanding
+
+#### Trick 1: Read permissions as "who can do what"
+
+When you see `drwxr-xr-x`, split it like this:
+
+- Owner: `rwx`
+- Group: `r-x`
+- Others: `r-x`
+
+This mental model helps you debug access problems quickly later (for scripts, apps, and shared folders).
+
+#### Trick 2: Safe install pattern
+
+Use this sequence when installing software:
+
+```bash
+sudo apt update
+sudo apt install <tool-name>
+<tool-name> --version
+```
+
+Why it helps:
+
+- `update` refreshes package info.
+- `install` adds the tool.
+- `--version` confirms it actually works.
+
+#### Bonus preview: changing permissions
+
+You do not need to memorize this yet, but this is a common command:
+
+```bash
+chmod u+x script.sh
+```
+
+Meaning: give execute permission (`x`) to the file owner (`u`).
+
+You will use this often when running scripts in future weeks.
+
+---
+
 ### Day 4 tip
 
 > `sudo` means "do this as the administrator". You need it for installing software. You'll always be asked for your password. This is Ubuntu protecting itself from accidental changes.

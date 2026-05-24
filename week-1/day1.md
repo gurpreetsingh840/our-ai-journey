@@ -187,6 +187,42 @@ flowchart LR
 
 ---
 
+### Tip and trick for deeper understanding
+
+#### Trick 1: README as your public portfolio
+
+Your README is not just a file. It is your first "developer profile card." Later, employers, mentors, and collaborators scan README files first to understand how you think and communicate.
+
+Try this mini-upgrade in your README:
+
+- Add one "Now learning" section
+- Add one "Next project" line
+- Update it weekly
+
+This builds a visible learning timeline.
+
+#### Trick 2: Commits are milestones, not just saves
+
+Every commit is a checkpoint in your learning journey. If you make tiny commits often, you can look back and see exactly how your thinking improved.
+
+Simple commit quality rule:
+
+- Bad: `update`
+- Better: `add About me section to README`
+
+This habit becomes very useful when working in teams.
+
+#### Quick challenge (5 minutes)
+
+Edit your README again and add:
+
+- A section called `## This week`
+- Three bullet points for Week 1 goals
+
+Then commit the change.
+
+---
+
 ### Day 1 tip
 
 > The terminal looked scary at first, right? We only used it for one command today. Starting tomorrow, we'll use it more — and by the end of the week it'll feel completely normal.

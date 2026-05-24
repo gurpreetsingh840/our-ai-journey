@@ -141,6 +141,44 @@ If any box is unchecked — use the weekend to revisit that day's section.
 
 ---
 
+### Tip and trick for deeper understanding
+
+#### Trick 1: Retrieval beats rereading
+
+To remember commands long-term, practice "recall first, then check":
+
+1. Try from memory.
+2. Run command.
+3. Compare result to expectation.
+4. Fix and repeat.
+
+This builds real command fluency faster than reading notes repeatedly.
+
+#### Trick 2: One command, three contexts
+
+Pick one command and use it in three different places.
+
+Example with `ls`:
+
+- `ls ~`
+- `ls ~/projects`
+- `ls ~/projects/notes`
+
+Same command, different context. This teaches transfer, which is the core of real skill.
+
+#### Weekend mini challenge (optional)
+
+Create a fresh folder `~/projects/week1-speedrun` and reproduce the full Week 1 structure from memory in under 15 minutes:
+
+- Create folders
+- Create files
+- Open in VS Code
+- Write one short Markdown note
+
+If you can do it without checking guides, Week 1 is fully internalized.
+
+---
+
 ### Day 5 tip
 
 > Sat/Sun are catch-up and go-ahead days. If you finished everything — try exploring GitHub: search for "awesome python" and browse the repos people have built. See what's possible.

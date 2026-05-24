@@ -203,6 +203,48 @@ The `.` means "open VS Code in the current folder". VS Code opens and shows your
 
 ---
 
+### Tip and trick for deeper understanding
+
+#### Trick 1: Relative path vs absolute path
+
+You used both today (even if you did not name them yet):
+
+- Relative path: `cd projects` (from where you are now)
+- Absolute path: `cd /home/sara/projects` (full address from root)
+
+Why this matters:
+
+- Relative paths are faster for daily work.
+- Absolute paths are safer in scripts because they are unambiguous.
+
+#### Trick 2: Terminal is a composition tool
+
+Commands become powerful when combined in sequence.
+
+Example workflow:
+
+```bash
+cd ~/projects/notes
+touch command-practice.txt
+ls
+code .
+```
+
+This is the same idea used later in automation: small commands chained into repeatable workflows.
+
+#### Quick challenge (5-10 minutes)
+
+Without mouse clicks:
+
+1. Create `~/projects/sandbox`
+2. Inside it create `a.txt` and `b.txt`
+3. Rename `b.txt` to `ideas.txt`
+4. Confirm with `ls`
+
+If you can do this from memory, your terminal confidence is growing fast.
+
+---
+
 ### Day 2 tip
 
 > Use `Tab` autocomplete constantly — it saves time and prevents typos. If Tab doesn't complete, it means the folder name doesn't exist yet (check your spelling with `ls`).

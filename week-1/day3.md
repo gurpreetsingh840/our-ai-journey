@@ -160,6 +160,44 @@ We'll properly connect VS Code to GitHub using Git tomorrow and in Week 2 — fo
 
 ---
 
+### Tip and trick for deeper understanding
+
+#### Trick 1: Command Palette is your "universal remote"
+
+If you forget where a feature lives in menus, use `Ctrl+Shift+P` and type what you want:
+
+- `Markdown: Open Preview`
+- `Terminal: Create New Terminal`
+- `View: Toggle Word Wrap`
+
+This builds tool fluency much faster than memorizing menu locations.
+
+#### Trick 2: Keep one editor, one preview, one terminal
+
+A clean three-pane flow helps focus:
+
+1. Left: Markdown source
+2. Right: Preview
+3. Bottom: Terminal
+
+This mirrors how developers work on docs, code, and commands at the same time.
+
+#### Quick challenge (10 minutes)
+
+Improve your cheat sheet with one new section:
+
+```markdown
+## Safety habits
+
+- Run `ls` before `rm`
+- Use clear file names before renaming
+- Keep one backup copy before major edits
+```
+
+Then preview it and check formatting is correct.
+
+---
+
 ### Day 3 tip
 
 > Learn the shortcuts. `Ctrl+` ` ` (backtick) to open the terminal, `Ctrl+Shift+P` to search for any command. After a week these will feel automatic.
